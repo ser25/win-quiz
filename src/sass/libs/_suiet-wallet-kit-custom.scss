@@ -1,0 +1,27 @@
+:root {
+  //--wkit-accent-hs: 10, 100%; // Redefine the hs (the first two components of hsl) of the accent color
+  //--wkit-on-bg-rgb: withe, 1%
+  --wkit-button-width: 300px;
+  --wkit-font-family: 'lt_reponsebold';
+}
+
+.wkit-disconnect-button {
+  background-color: inherit;
+}
+
+.wkit-connected-button {
+  background-color: inherit;
+
+  &:hover {
+    background-color: inherit;
+  }
+}
+.wkit-button {
+  background-color: rgba(248, 42, 42, 0.9);
+  &:hover{
+    background-color: rgba(248, 42, 42, 0.8);;
+  }
+}
+.wkit-disconnect-button:hover {
+  background-color: inherit;
+}
